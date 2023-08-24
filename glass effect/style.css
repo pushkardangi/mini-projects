@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 100vh;
+  background: url(image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.glass {
+  width: 70%;
+  height: 70%;
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  background: linear-gradient(100deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.25);
+}
+
+.text{
+  color: rgb(225, 225, 225);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
