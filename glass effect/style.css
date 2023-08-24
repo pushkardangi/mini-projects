@@ -12,7 +12,7 @@ body {
 
 .box {
   height: 100vh;
-  background: url(image.jpg);
+  background: url(../images/nature.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
