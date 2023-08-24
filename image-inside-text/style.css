@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.h-full{
+  height: 100vh;
+}
+
+.text{
+  font-size: 8rem;
+  font-weight: 700;
+
+  background-image: url(image.jpeg);
+  background-size: cover;
+  background-position: center;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
