@@ -1,10 +1,11 @@
-# Logs
+# Files
 logs
 *.log
+*.local
 
+# Folders
 node_modules
 dist
-*.local
 
 # Editor directories and files
 .vscode/*
